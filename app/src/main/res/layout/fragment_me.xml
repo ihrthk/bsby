@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/head_portrait_box">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="@drawable/head_portrait_selector" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:background="@drawable/bar_selector">
+
+        <ImageView
+            android:id="@+id/iv_public_borad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:background="@drawable/public_board_selector" />
+
+        <TextView
+            android:id="@+id/tv_public_board"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_public_borad"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/me_opt_textcolor_selector"
+            android:clickable="false"
+            android:layout_centerVertical="true"
+            android:text="公告栏" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:clickable="false"
+            android:layout_centerVertical="true"
+            android:background="@drawable/arrow_selector" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:background="@drawable/bar_selector">
+
+        <ImageView
+            android:id="@+id/iv_cache_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:background="@drawable/cache_clean_selector" />
+
+        <TextView
+            android:id="@+id/tv_cache_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_cache_clean"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:textColor="@color/me_opt_textcolor_selector"
+            android:layout_centerVertical="true"
+            android:text="缓存清理" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:background="@drawable/arrow_selector" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_advise"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bar_selector">
+
+        <ImageView
+            android:id="@+id/iv_advise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/advise_selector" />
+
+        <TextView
+            android:id="@+id/tv_advise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_advise"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:textColor="@color/me_opt_textcolor_selector"
+            android:layout_centerVertical="true"
+            android:text="意见与反馈" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:background="@drawable/arrow_selector" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_about_bs"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bar_selector">
+
+        <ImageView
+            android:id="@+id/iv_about_bs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:background="@drawable/about_bs_selector" />
+
+        <TextView
+            android:id="@+id/tv_about_bs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_about_bs"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:textColor="@color/me_opt_textcolor_selector"
+            android:layout_centerVertical="true"
+            android:text="关于百试" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:background="@drawable/arrow_selector" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

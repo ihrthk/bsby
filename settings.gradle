@@ -1,0 +1,3 @@
+include ':app', ':trydress', ':umeng_fb', ':test', ':camera'
+include ':view-page-indicator'
+include ':trinea-android-common'

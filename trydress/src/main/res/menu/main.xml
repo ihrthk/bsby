@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/landscape"
+        android:checkable="true"
+        android:checked="false"
+        android:showAsAction="never"
+        android:title="lock_to_landscape" />
+    <item
+        android:id="@+id/content"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:showAsAction="never"
+        android:title="launch_camera_app" />
+    <item
+        android:id="@+id/fullscreen"
+        android:showAsAction="never"
+        android:title="launch_full_screen" />
+
+</menu>

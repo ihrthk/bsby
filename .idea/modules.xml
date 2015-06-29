@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bsby.iml" filepath="$PROJECT_DIR$/bsby.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trinea-android-common/trinea-android-common.iml" filepath="$PROJECT_DIR$/trinea-android-common/trinea-android-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trydress/trydress.iml" filepath="$PROJECT_DIR$/trydress/trydress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umeng_fb/umeng_fb.iml" filepath="$PROJECT_DIR$/umeng_fb/umeng_fb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view-page-indicator/view-page-indicator.iml" filepath="$PROJECT_DIR$/view-page-indicator/view-page-indicator.iml" />
+    </modules>
+  </component>
+</project>
+

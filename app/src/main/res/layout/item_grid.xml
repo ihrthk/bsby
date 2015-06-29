@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_public_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:lines="2"
+        android:text="百变试衣秀"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+</RelativeLayout>
